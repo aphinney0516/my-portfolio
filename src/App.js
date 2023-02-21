@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import NavTabs from './components/NavTabs';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
-function App() {
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <Contact />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{minHeight:'100vh'}}>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
     </div>
   );
 }
-
-export default App;
