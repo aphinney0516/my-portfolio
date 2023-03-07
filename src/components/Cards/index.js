@@ -1,14 +1,14 @@
+// How do I push if this isn't on GitHub?
 import react from 'react';
 import Card from 'react-bootstrap/Card';
-function PortfolioCards ({title,image}) {
+function PortfolioCards ({title,image,description}) {
     return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '100%' }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {description}
         </Card.Text>
       </Card.Body>
     </Card>

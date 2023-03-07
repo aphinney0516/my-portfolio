@@ -28,9 +28,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={{minHeight:'100vh'}}>
+    <div style={{height:'100%'}}>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div style={{backgroundImage:'linear-gradient(to right, grey, #d4bdc5)'}}>{renderPage()}</div>
     </div>
   );
 }
