@@ -1,4 +1,3 @@
-// How do I push if this isn't on GitHub?
 import react from 'react';
 import Card from 'react-bootstrap/Card';
 function PortfolioCards ({title,image,description}) {
