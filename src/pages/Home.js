@@ -4,6 +4,7 @@ import laughingHeadshot from '../assets/images/headshots/laughingHeadshot.jpeg'
 import casualHeadshot from '../assets/images/headshots/casualHeadshot.jpeg'
 import Carousel from 'react-bootstrap/Carousel';
 import '../App.css'
+// I like my name either in the upper right of the header or at the top of this page in an <h1></h1>
 // Let's call my quote a placeholder for now
 function Home (){
     return (
@@ -27,6 +28,7 @@ function Home (){
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
+                        // I want to replace this image with classHeadshot.jpeg
                         src={casualHeadshot}
                         alt="Third slide"
                     />

@@ -1,5 +1,5 @@
 import react from 'react'
-// Headshot desparately needs to be styled, along with the text being centered.
+// Headshot to the left with bio next to it on the right in the homepage font
 import brandedHeadshot from '../assets/images/headshots/brandedHeadshot.jpeg'
 function About() {
     return (
