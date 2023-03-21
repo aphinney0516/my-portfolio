@@ -16,10 +16,10 @@
 The purpose of this project is to display my work and allow parties interested in hiring me to get to know me a little better before meeting me. The main problem this project solves is allowing something mysel and my prospective employers can reference prior to interviewing me.
 
 ### Installation
-Go to 
+Go to https://aphinney-portfolio.herokuapp.com/.
 
 ### Usage
-Please view the following video for a usage guide: 
+Please view the following video for a usage guide: [demo video](https://youtu.be/dSndOiheV40).
 
 ### Credits
 I had assistance from my tutor Corey yates.
@@ -37,4 +37,4 @@ Please use the "issues" section on the GitHub repository listed below.
 Licensed under The MIT License
 
 ### Questions
-Please use the issues section of https://github.com/aphinney0516/my-portfolio/issues
+Please use the issues section of https://github.com/aphinney0516/my-portfolio/issues.
