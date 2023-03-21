@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav" style={{display: "flex", justifyContent: "space-around", maxWidth:"750px", margin: "0 auto", fontFamily: "cursive"}}>
       <li className="nav-item">
         <a
           href="#home"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './components/NavTabs';
+import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
 
   return (
     <div style={{height:'100%'}}>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div style={{backgroundImage:'linear-gradient(to right, grey, #d4bdc5)'}}>{renderPage()}</div>
     </div>
   );
