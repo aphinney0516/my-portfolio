@@ -11,16 +11,16 @@ function Portfolio() {
             title: 'Cards Against Apathy', 
             description: 'A fitness app that gamifies exercise by using a deck of cards.', 
             image: cardsAgainstApathy, 
-            gitHub: 'https://github.com/5ynergy/bandwagon', 
-            link: 'https://bandwagon-official.herokuapp.com/'
+            gitHub: 'https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy', 
+            link:  'https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/'
         },
         { 
             id: 2, 
             title: 'Bandwagon', 
             description: 'An event app that connects unknown bands and musicians with potential fans.', 
             image: bandwagon, 
-            gitHub: 'https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy', 
-            link: 'https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/'},
+            gitHub: 'https://github.com/5ynergy/bandwagon', 
+            link: 'https://bandwagon-official.herokuapp.com/'},
         { 
             id: 3, 
             title: 'Meal Train', 
