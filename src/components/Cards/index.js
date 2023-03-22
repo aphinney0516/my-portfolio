@@ -10,10 +10,10 @@ function PortfolioCards ({title, image, description, gitHub, link}) {
         <Card.Text>
           {description}
         </Card.Text>
-          <Card.Link href= "#">
+          <Card.Link href= {link}>
             Repository{gitHub}
           </Card.Link>
-          <Card.Link  href= "#">
+          <Card.Link  href= {link}>
             Site{link}
           </Card.Link>
       </Card.Body>
